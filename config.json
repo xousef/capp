@@ -1,10 +1,10 @@
 [{
-		"title": "Latest Updates",
+		"title": "Latest Updates!!!",
 		"drawable": "Domain-32",
 		"submenu": "Statistics Updates",
 		"iap": false,
 		"tabs": [{
-				"title": "LATEST UPDATES",
+				"title": "LATEST UPDATES!!",
 				"provider": "alltheworld",
 				"image": "Domain-32",
 				"arguments": [
