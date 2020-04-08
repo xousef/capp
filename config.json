@@ -69,7 +69,7 @@
         "provider": "wordpress",
         "image": "Clock-32",
         "arguments": [
-            "https://www.adennews.net/wp-json/wp/v2/",
+            "",
             "6"
         ]
         
@@ -92,12 +92,25 @@
         }]
     },
     {
-        "title": "Podcast - بودكست",
+        "title": "Audio Podcast  - بودكست",
         "drawable": "",
         "submenu": "",
         "iap": false,
         "tabs": [{
-            "title": "بودكاست ",
+            "title": "Audio Podcast ",
+            "provider": "rss",
+            "arguments": [
+                "https://feeds.soundcloud.com/users/soundcloud:users:113166912/sounds.rss"
+            ]
+        }]
+    },
+	    {
+        "title": "Audio Podcast  - فضفضة",
+        "drawable": "",
+        "submenu": "",
+        "iap": false,
+        "tabs": [{
+            "title": "Audio فضفضة ",
             "provider": "rss",
             "arguments": [
                 "https://feeds.soundcloud.com/users/soundcloud:users:113166912/sounds.rss"
@@ -241,8 +254,23 @@
             ]
         }]
     },
+	    {
+        "title": "visit our location - زورنا",
+        "drawable": "",
+        "submenu": "",
+        "iap": false,
+        "tabs": [{
+            "title": "our location",
+            "provider": "webview",
+            "image": "",
+            "arguments": [
+                "https://www.google.com/maps/place/Aden,+Yemen/@12.7902691,45.0077644,915m/data=!3m1!1e3!4m5!3m4!1s0x161e1cd6515ec22f:0x945fb3c323696fe9!8m2!3d12.7854969!4d45.0186548",
+                
+            ]
+        }]
+    },
     {
-        "title": "contact us",
+        "title": "contact us تواصلو بنا",
         "drawable": "",
         "submenu": "Other",
         "iap": false,
