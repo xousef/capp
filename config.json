@@ -155,7 +155,7 @@
         "submenu": "",
         "iap": false,
         "tabs": [{
-            "title": "قرائن مباشر",
+            "title": "LIVE مباشر",
             "provider": "youtube",
             "image": "Playlist",
             "arguments": [
