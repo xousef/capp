@@ -1,285 +1,1135 @@
 [{
-        "title": "اخبار عدن",
-        "drawable": "",
-        "submenu": "",
-        "iap": false,
-        "tabs": [{
-                "title": "اخبار عدن - Aden topics",
-                "provider": "wordpress",
-                "image": "Clock-32",
-                "arguments": [
-                    "https://www.adennews.net/wp-json/wp/v2/",
-                    "1"
-                ]
-            },
-            {
-                "title": "رياضه - sport ",
-                "provider": "wordpress",
-                "image": "Domain-32",
-                "arguments": [
-                    "https://www.adennews.net/wp-json/wp/v2/",
-                    "2"
-                ]
-            },
-            {
-                "title": "اخبار عالمية ـ Int. Topics",
-                "provider": "wordpress",
-                "image": "News-32",
-                "arguments": [
-                    "https://www.adennews.net/wp-json/wp/v2/",
-                    "6"
-                ]
-            },
-            {
-                "title": "  احداث- Events",
-                "provider": "wordpress",
-                "image": "circle",
-                "arguments": [
-                    "https://www.adennews.net/wp-json/wp/v2/",
-                    "4"
-                ]
-            }
-        ]
-    },
-{
-"title": "عدن برس",
-"drawable": "",
-"submenu": "",
-"iap": false,
-"tabs": [{
-        "title": "عدن برس  - Aden press",
-        "provider": "wordpress",
-        "image": "Clock-32",
-        "arguments": [
-            "https://www.yemenipress.net/wp-json/wp/v2/",
-            "1"
-        ]
-        
-    }
-]
+		"title": "Latest Updates",
+		"drawable": "Domain-32",
+		"submenu": "Statistics Updates",
+		"iap": false,
+		"tabs": [{
+				"title": "LATEST UPDATES",
+				"provider": "alltheworld",
+				"image": "Domain-32",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Live Video Stats",
+				"provider": "youtube",
+				"image": "Online-32",
+				"arguments": [
+					"PLwFKCcfzSO0oT8TQONQDkZuj0j589PNmX",
+					"playlist"
+				]
+			},
+			{
+				"title": "Live Map",
+				"provider": "webview",
+				"image": "btn_navigate",
+				"arguments": [
+					"https://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd"
 
-},
-{
-"title": "عدن تايمز",
-"drawable": "",
-"submenu": "",
-"iap": false,
-"tabs": [{
-        "title": "عدن برس  - Aden press",
-        "provider": "wordpress",
-        "image": "Clock-32",
-        "arguments": [
-            "",
-            "6"
-        ]
-        
-    }
-]
+				]
+			},
+			{
+				"title": "Precautions",
+				"provider": "youtube",
+				"image": "TV-Show-32",
+				"arguments": [
+					"PLwFKCcfzSO0oEcjjSuWV-LYXj_5oI_bd7",
+					"playlist"
+				]
+			}
+		]
+	},
+	{
+		"title": "Stats By Country",
+		"drawable": "Countries-32",
+		"submenu": "Statistics Updates",
+		"iap": false,
+		"tabs": [{
+				"title": "United States",
+				"provider": "usa",
+				"image": "USA-32",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Mainland China",
+				"provider": "china",
+				"image": "China-32",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Italy",
+				"provider": "italy",
+				"image": "Italy-32",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Spain",
+				"provider": "spain",
+				"image": "Spain-32",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Germany",
+				"provider": "germany",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Afghanistan",
+				"provider": "afghan",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Albania",
+				"provider": "albania",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Algeria",
+				"provider": "algeria",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Argentina",
+				"provider": "argentina",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Australia",
+				"provider": "australia",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Austria",
+				"provider": "austria",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Azerbaijan",
+				"provider": "azerbaijan",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Bahamas",
+				"provider": "bahamas",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Bahrain",
+				"provider": "bahrain",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Bangladesh",
+				"provider": "bangladesh",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Belgium",
+				"provider": "belgium",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Brazil",
+				"provider": "brazil",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Cameroon",
+				"provider": "cameroon",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Canada",
+				"provider": "canada",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Colombia",
+				"provider": "colombia",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Cuba",
+				"provider": "cuba",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Diamond Princess",
+				"provider": "diamondprincess",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Egypt",
+				"provider": "egypt",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "El Salvador",
+				"provider": "elsalvador",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Fiji",
+				"provider": "fiji",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "France",
+				"provider": "france",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Guatemala",
+				"provider": "guatemala",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Honduras",
+				"provider": "honduras",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Hong Kong",
+				"provider": "hongkong",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "India",
+				"provider": "india",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Indonesia",
+				"provider": "indonesia",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Iran",
+				"provider": "iran",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Iraq",
+				"provider": "iraq",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Ireland",
+				"provider": "Ireland",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Isle Of Man",
+				"provider": "isleofman",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Djibouti",
+				"provider": "jabooti",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Jamaica",
+				"provider": "jamaica",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Japan",
+				"provider": "japan",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Jordan",
+				"provider": "jordan",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Kazakhstan",
+				"provider": "kazakhstan",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "kenya",
+				"provider": "kenya",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Kuwait",
+				"provider": "kuwait",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Kyrgyzstan",
+				"provider": "kyrgyzstan",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Lebanon",
+				"provider": "lebanon",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Liberia",
+				"provider": "liberia",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Libya",
+				"provider": "libya",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Malaysia",
+				"provider": "malaysia",
+				"image": "",
+				"arguments": [
+					""
+				]
+			}, {
+				"title": "Mauritania",
+				"provider": "mauritania",
+				"image": "",
+				"arguments": [
+					""
+				]
+			}, {
+				"title": "Mexico",
+				"provider": "mexico",
+				"image": "",
+				"arguments": [
+					""
+				]
+			}, {
+				"title": "Morocco",
+				"provider": "morocco",
+				"image": "",
+				"arguments": [
+					""
+				]
+			}, {
+				"title": "Nepal",
+				"provider": "nepal",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Netherlands",
+				"provider": "netherlands",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "New Zealand",
+				"provider": "newzealand",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Nigeria",
+				"provider": "nigeria",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Norway",
+				"provider": "norway",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Oman",
+				"provider": "oman",
+				"image": "",
+				"arguments": [
+					""
+				]
+			}, {
+				"title": "Pakistan",
+				"provider": "pakistan",
+				"image": "",
+				"arguments": [
+					""
+				]
+			}, {
+				"title": "Palestine",
+				"provider": "palestine",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Philippines",
+				"provider": "philippines",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Portugal",
+				"provider": "portugal",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Costa Rica",
+				"provider": "puertorico",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Russia",
+				"provider": "russia",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Saudi Arabia",
+				"provider": "ksa",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "South Africa",
+				"provider": "safrica",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Singapore",
+				"provider": "singapore",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "S. Korea",
+				"provider": "skorea",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "N. Korea",
+				"provider": "nkorea",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Somali",
+				"provider": "somali",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Sudan",
+				"provider": "sudan",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Sweden",
+				"provider": "sweden",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Switzerland",
+				"provider": "switzerland",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Syria",
+				"provider": "syria",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Taiwan",
+				"provider": "taiwan",
+				"image": "",
+				"arguments": [
+					""
+				]
+			}, {
+				"title": "Thailand",
+				"provider": "thailand",
+				"image": "",
+				"arguments": [
+					""
+				]
+			}, {
+				"title": "Tunisia",
+				"provider": "tunisia",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "Tonga",
+				"provider": "tonga",
+				"image": "",
+				"arguments": [
+					""
+				]
+			}, {
+				"title": "Turkey",
+				"provider": "turkey",
+				"image": "",
+				"arguments": [
+					""
+				]
+			}, {
+				"title": "UAE",
+				"provider": "uae",
+				"image": "",
+				"arguments": [
+					""
+				]
+			}, {
+				"title": "UK",
+				"provider": "uk",
+				"image": "",
+				"arguments": [
+					""
+				]
+			}, {
+				"title": "Ukraine",
+				"provider": "ukraine",
+				"image": "",
+				"arguments": [
+					""
+				]
+			}, {
+				"title": "British Virgin Islands",
+				"provider": "usislands",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "U.S Virgin Islands",
+				"provider": "USVirgin",
+				"image": "",
+				"arguments": [
+					""
+				]
+			}, {
+				"title": "Uzbekistan",
+				"provider": "uzbekistan",
+				"image": "",
+				"arguments": [
+					""
+				]
+			}, {
+				"title": "Venezuela",
+				"provider": "venezuela",
+				"image": "",
+				"arguments": [
+					""
+				]
+			}, {
+				"title": "N.Yemen",
+				"provider": "nyemen",
+				"image": "",
+				"arguments": [
+					""
+				]
+			}, {
+				"title": "S.Yemen",
+				"provider": "yemen",
+				"image": "",
+				"arguments": [
+					""
+				]
+			},
+			{
+				"title": "More Countries",
+				"provider": "morecountries",
+				"image": "",
+				"arguments": [
+					""
+				]
+			}
 
-},
+		]
+	},
+	{
+		"title": " Live TV",
+		"drawable": "TV-Show-32",
+		"submenu": "Media Updates",
+		"iap": false,
+		"tabs": [{
+				"title": "RT | World ",
+				"provider": "stream",
+				"image": "TV-Show-32",
+				"arguments": [
+					"https://rt-news-gd.secure2.footprint.net/1103.m3u8"
+				]
+			},
+			{
+				"title": " CBSN | U.S ",
+				"provider": "stream",
+				"image": "Domain-32",
+				"arguments": [
+					"https://cbsn-us-cedexis.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master_12.m3u8"
+				]
+			},
+			{
+				"title": "More Live News Channels",
+				"provider": "youtube",
+				"image": "Online-32",
+				"arguments": [
+					"PLwFKCcfzSO0qU_eTqaSwHUttI850urfd1",
+					"playlist"
+				]
+			}
+		]
 
-    {
-        "title": "RSS",
-        "drawable": "",
-        "submenu": "",
-        "iap": false,
-        "tabs": [{
-            "title": "Feed",
-            "provider": "rss",
-            "arguments": [
-                "https://adengd.net/rss"
-            ]
-        }]
-    },
-    {
-        "title": "Audio Podcast  - بودكست",
-        "drawable": "",
-        "submenu": "",
-        "iap": false,
-        "tabs": [{
-            "title": "Audio Podcast ",
-            "provider": "rss",
-            "arguments": [
-                "https://feeds.soundcloud.com/users/soundcloud:users:113166912/sounds.rss"
-            ]
-        }]
-    },
-	    {
-        "title": "Audio Podcast  - فضفضة",
-        "drawable": "",
-        "submenu": "",
-        "iap": false,
-        "tabs": [{
-            "title": "Audio فضفضة ",
-            "provider": "rss",
-            "arguments": [
-                "https://feeds.soundcloud.com/users/soundcloud:users:113166912/sounds.rss"
-            ]
-        }]
-    },
+	},
+	{
+		"title": "Live Radio",
+		"drawable": "Microphone-32",
+		"submenu": "Media Updates",
+		"iap": false,
+		"tabs": [{
+				"title": "Doctor's Coronavirus Radio",
+				"image": "Microphone-32",
+				"provider": "radio",
+				"arguments": [
+					"https://no-token-siriusxmamp-priprodlive-0.akamaized.net/AAC_Data/doctorradio/doctorradio_variant_small_v3.m3u8"
+				]
+			},
+			{
+				"title": "BBC World Radio",
+				"provider": "radio",
+				"image": "Domain-32",
+				"arguments": [
+					"http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk"
+				]
+			}
+		]
 
-    {
-        "title": "Twitter - تويتر",
-        "drawable": "",
-        "submenu": "Social Media",
-        "iap": false,
-        "tabs": [{
-            "title": "Twitter",
-            "provider": "twitter",
-            "arguments": [
-                "AdenHurra"
-            ]
-        }]
-    },
-    {
-        "title": "video - فيديوهاتنا",
-        "drawable": "",
-        "submenu": "",
-        "iap": false,
-        "tabs": [
+	},
+	{
+		"title": "RSS",
+		"drawable": "News-32",
+		"submenu": "Media Updates",
+		"iap": false,
+		"tabs": [{
+			"title": "Latest Feed",
+			"provider": "rss",
+			"image": "News-32",
+			"arguments": [
+				"https://tools.cdc.gov/api/v2/resources/media/403372.rss"
+			]
+		}]
+	},
+	{
+		"title": "Podcast",
+		"drawable": "podcast-32",
+		"submenu": "Media Updates",
+		"iap": false,
+		"tabs": [{
+			"title": "Podcasts",
+			"provider": "rss",
+			"image": "podcast-32",
+			"arguments": [
+				"https://feeds.npr.org/510355/podcast.xml"
+			]
+		}]
+	},
+	{
+		"title": "Live News Reports",
+		"drawable": "newspaper-32",
+		"submenu": "Media Updates",
+		"iap": false,
+		"tabs": [{
+			"title": "Podcasts",
+			"provider": "webview",
+			"image": "newspaper-32",
+			"arguments": [
+				"https://www.bbc.com/news/live/world-47639450#qa-commentary-title%20lx-c-tab__title%20gs-u-mb+%20gel-great-primer"
+			]
+		}]
+	},
+	{
+		"title": "Live Maps",
+		"drawable": "Location-32",
+		"submenu": "Maps Updates",
+		"iap": false,
+		"tabs": [{
+				"title": "Covid19 Near Me",
+				"provider": "webview",
+				"image": "Location-32",
+				"arguments": [
+					"https://www.coronainusa.com/"
+				]
+			},
+			{
+				"title": "United States",
+				"provider": "webview",
+				"image": "USA-32",
+				"arguments": [
+					"https://infogram.com/us-coronavirus-cases-1hxr4z1k1kxq2yo"
+				]
+			},
+			{
+				"title": "Realtime Counter",
+				"provider": "webview",
+				"image": "Clock-32",
+				"arguments": [
+					"https://www.worldometers.info/coronavirus/#countries"
+				]
+			},
+			{
+				"title": "Google Covid19 Map",
+				"provider": "webview",
+				"image": "Gmaps-32",
+				"arguments": [
+					"https://www.google.com/covid19-map/"
+				]
+			},
+			{
+				"title": "World Map",
+				"provider": "webview",
+				"image": "btn_navigate",
+				"arguments": [
+					"https://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd/"
+				]
+			}
+		]
+	},
+	{
+		"title": "Stats By WhatsApp",
+		"drawable": "Whatsapp-32",
+		"submenu": "Social Media Updates",
+		"iap": false,
+		"tabs": [{
+			"title": "Get Stats By WhatsApp",
+			"provider": "whatsapp",
+			"arguments": [
+				""
+			]
+		}]
+	},
+	{
+		"title": "Youtube",
+		"drawable": "TV-Show-32",
+		"submenu": "Social Media Updates",
+		"iap": false,
+		"tabs": [{
+				"title": "Latest News",
+				"provider": "youtube",
+				"image": "News-32",
+				"arguments": [
+					"PLwFKCcfzSO0qGO332wetfZlOwxBJ_Zp6g",
+					"playlist"
+				]
+			},
+			{
+				"title": "Documentaries",
+				"provider": "youtube",
+				"image": "TV-Show-32",
+				"arguments": [
+					"PLwFKCcfzSO0ogX0NvICdgYuT9sBXCnNZf",
+					"playlist"
+				]
+			},
+			{
+				"title": "Live Stats",
+				"provider": "youtube",
+				"image": "Online-32",
+				"arguments": [
+					"PLwFKCcfzSO0oT8TQONQDkZuj0j589PNmX",
+					"playlist"
+				]
+			},
+			{
+				"title": "Tips & Resources",
+				"provider": "youtube",
+				"image": "Playlist-32",
+				"arguments": [
+					"PLwFKCcfzSO0oEcjjSuWV-LYXj_5oI_bd7",
+					"playlist"
+				]
+			}
+		]
+	},
+	{
+		"title": "Facebook",
+		"drawable": "Facebook-32",
+		"submenu": "Social Media Updates",
+		"iap": false,
+		"tabs": [{
+			"title": "Facebook",
+			"provider": "webview",
+			"arguments": [
+				"https://www.facebook.com/WHO/"
+			]
+		}]
+	},
+	{
+		"title": "Twitter",
+		"drawable": "Twitter-32",
+		"submenu": "Social Media Updates",
+		"iap": false,
+		"tabs": [{
+			"title": "Twitter",
+			"provider": "twitter",
+			"arguments": [
+				"who"
+			]
+		}]
+	},
+	{
+		"title": "Instagram",
+		"drawable": "Instagram-32",
+		"submenu": "Social Media Updates",
+		"iap": false,
+		"tabs": [{
+			"title": "Instagram",
+			"provider": "webview",
+			"arguments": [
+				"https://www.instagram.com/who"
+			]
+		}]
+	},
+	{
+		"title": "Flickr",
+		"drawable": "Flickr-32",
+		"submenu": "Social Media Updates",
+		"iap": false,
+		"tabs": [{
+			"title": "Flickr",
+			"provider": "webview",
+			"arguments": [
+				"https://www.flickr.com/search/?text=coronavirus%20infographic"
+			]
+		}]
+	},
+	{
+		"title": "Disease Alert",
+		"drawable": "virus-32",
+		"submenu": "Resources",
+		"iap": false,
+		"tabs": [{
+			"title": "Latest Disease Updates|W.H.O",
+			"provider": "rss",
+			"arguments": [
+				"https://www.who.int/rss-feeds/news-english.xml"
+			]
+		}]
+	},
+	{
+		"title": "Reports",
+		"drawable": "Key-32",
+		"submenu": "Resources",
+		"iap": false,
+		"tabs": [{
+			"title": "Reports by World Health Org.",
+			"provider": "webview",
+			"arguments": [
+				"https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports"
+			]
+		}]
+	},
+	{
+		"title": "Symptoms",
+		"drawable": "Symptoms-32",
+		"submenu": "Resources",
+		"iap": false,
+		"tabs": [{
+			"title": "COVID-19 Symptoms",
+			"provider": "webview",
+			"arguments": [
+				"https://www.who.int/health-topics/coronavirus#tab=tab_3"
+			]
+		}]
+	},
+	{
+		"title": "Preventions",
+		"drawable": "Prevention-32",
+		"submenu": "Resources",
+		"iap": false,
+		"tabs": [{
+			"title": "COVID-19 Preventions",
+			"provider": "webview",
+			"arguments": [
+				"https://www.who.int/health-topics/coronavirus#tab=tab_2"
+			]
+		}]
+	},
+	{
+		"title": "Treatments",
+		"drawable": "Treatment-32",
+		"submenu": "Resources",
+		"iap": false,
+		"tabs": [{
+			"title": "COVID-19 Treatments",
+			"provider": "webview",
+			"arguments": [
+				"https://www.who.int/news-room/q-a-detail/q-a-coronaviruses"
+			]
+		}]
+	},
+	{
+		"title": "Mask 101",
+		"drawable": "Mask-32",
+		"submenu": "Resources",
+		"iap": false,
+		"tabs": [{
+			"title": "How & when To Use Mask",
+			"provider": "webview",
+			"arguments": [
+				"https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/when-and-how-to-use-masks/#PageContent_C037_Col00"
+			]
+		}]
+	},
+	{
+		"title": "Infographic",
+		"drawable": "Infographic-32",
+		"submenu": "Resources",
+		"iap": false,
+		"tabs": [{
+				"title": "Infographic",
+				"image": "Infographic-32",
+				"provider": "webview",
+				"arguments": [
+					"https://www.who.int/docs/default-source/inaugural-who-partners-forum/coronavirus-poster-english-srilanka.pdf?sfvrsn=289dedc3_0"
+				]
+			},
+			{
+				"title": "Do The Five",
+				"provider": "webview",
+				"image": "Resources-32",
+				"arguments": [
+					"https://4.bp.blogspot.com/-QHK3gsv09GA/XoLrH05n4iI/AAAAAAAAABo/GcaaLeLio1UspJ3PEy8BjIMERQT1RulewCLcBGAsYHQ/s1600/DotheFive.gif"
+				]
+			}
+		]
+	},
+	{
+		"title": "Our Website",
+		"drawable": "Domain-32",
+		"submenu": "About Us",
+		"iap": false,
+		"tabs": [{
+			"title": "23 Media Production",
+			"provider": "webview",
+			"arguments": [
+				"https://23mediapros.blogspot.com/"
+			]
+		}]
+	},
+	{
+		"title": "Support Our Work",
+		"drawable": "Donate-32",
+		"submenu": "About Us",
+		"iap": false,
+		"tabs": [{
+				"title": "Support Our Development",
+				"provider": "webview",
+				"image": "Resources-32",
+				"arguments": [
+					"https://cash.app/$Xousef"
+				]
+			},
+			{
+				"title": "Other Ways",
+				"provider": "webview",
+				"image": "Resources-32",
+				"arguments": [
+					"https://23mediapros.blogspot.com/p/support-us.html"
+				]
+			}
 
-            {
-                "title": " Channel",
-                "provider": "youtube",
-                "image": "TV-Show-32",
-                "arguments": [
-                    "UC_2kvcHFu8GJ5DhhzuZih6w",
-                    "channel"
-                ]
-            }
-        ]
-    },
-    {
-        "title": "Playlist - قائمه",
-        "drawable": "",
-        "submenu": "",
-        "iap": false,
-        "tabs": [{
-            "title": "LIVE مباشر",
-            "provider": "youtube",
-            "image": "Playlist",
-            "arguments": [
-                "PLwFKCcfzSO0ohwVHa8pAMsMkZ7hRQRiQI",
-                "playlist"
-            ]
-        }]
-    },
-    {
-        "title": "نشرات الأخبار لقناة عدن الفضائية",
-        "drawable": "",
-        "submenu": "",
-        "iap": false,
-        "tabs": [{
-            "title": " نشرات الأخبار لقناة عدن الفضائية",
-            "provider": "youtube",
-            "image": "Playlist",
-            "arguments": [
-                "PLf5OxYrAC8MP18oSt_3KX7C1OtvFBJwVR",
-                "playlist"
-            ]
-        }]
-    },
-    {
-        "title": "عدن 24 ",
-        "drawable": "",
-        "submenu": "",
-        "iap": false,
-        "tabs": [{
-            "title": "عدن 24",
-            "provider": "youtube",
-            "image": "Playlist",
-            "arguments": [
-                "PLTwAzek71GrPbGok8-OLarHe_XTnGTk5M",
-                "playlist"
-            ]
-        }]
-    },
-    {
-        "title": "الفضائية",
-        "drawable": "",
-        "submenu": "",
-        "iap": false,
-        "tabs": [{
-            "title": "عدن الفضائية",
-            "provider": "youtube",
-            "image": "Playlist",
-            "arguments": [
-                "PLEp4atBkYH4m348ut0C-SSwi54__Kwr7a",
-                "playlist"
-            ]
-        }]
-    },
-    {
-        "title": "قصة مدينة عدن",
-        "drawable": "",
-        "submenu": "",
-        "iap": false,
-        "tabs": [{
-            "title": "قصة  لمدينة عدن",
-            "provider": "youtube",
-            "image": "Playlist",
-            "arguments": [
-                "PLN86jLrAhfBMnmbSSL9fWeM-1Oqop9QMG",
-                "playlist"
-            ]
-        }]
-    },
-    {
-        "title": "تقارير - REPORTS",
-        "drawable": "",
-        "submenu": "",
-        "iap": false,
-        "tabs": [{
-            "title": "تقارير",
-            "provider": "youtube",
-            "image": "Playlist",
-            "arguments": [
-                "PLEp4atBkYH4kXJaI9Q9P3CkJaHyzL02HE",
-                "playlist"
-            ]
-        }]
-    },
-    {
-        "title": "وثايقيات - DOCS",
-        "drawable": "",
-        "submenu": "",
-        "iap": false,
-        "tabs": [{
-            "title": "وثايقيات - DOCS",
-            "provider": "youtube",
-            "image": "Playlist",
-            "arguments": [
-                "PLUp2TQt8VvgIZv-Ua_Xd9jhktgOgmt5wf",
-                "playlist"
-            ]
-        }]
-    },
-	    {
-        "title": "visit our location - زورنا",
-        "drawable": "",
-        "submenu": "",
-        "iap": false,
-        "tabs": [{
-            "title": "our location",
-            "provider": "webview",
-            "image": "",
-            "arguments": [
-                "https://www.google.com/maps/place/Aden,+Yemen/@12.7902691,45.0077644,915m/data=!3m1!1e3!4m5!3m4!1s0x161e1cd6515ec22f:0x945fb3c323696fe9!8m2!3d12.7854969!4d45.0186548",
-                
-            ]
-        }]
-    },
-    {
-        "title": "contact us تواصلو بنا",
-        "drawable": "",
-        "submenu": "Other",
-        "iap": false,
-        "tabs": [{
-            "title": "contact us",
-            "provider": "webview",
-            "arguments": [
-                "https://adengd.net/contact/"
-            ]
-        }]
-    }
+		]
+	},
+	{
+		"title": "More Resources!",
+		"drawable": "Resources-32",
+		"submenu": "Extras",
+		"iap": false,
+		"tabs": [{
+			"title": "More Resources!",
+			"provider": "overview",
+			"arguments": [
+				"overview.json"
+			]
+		}]
+	}
 ]
